@@ -25,7 +25,7 @@ paypal
     },
     onCancel: function (data) {
       stocker();
-      window.location.replace("/succes.html");
+      window.location.replace("pcr_time/succes.html");
       // window.location.replace("https://pcrtime.netlify.app/fail.html");
     },
   })
