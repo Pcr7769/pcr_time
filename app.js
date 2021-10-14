@@ -25,9 +25,7 @@ paypal
     },
     onCancel: function (data) {
       stocker();
-      window.location.replace(
-        "http://127.0.0.1:5500/pcrtime69.github.io-main/succes.html"
-      );
+      window.location.replace("/succes.html");
       // window.location.replace("https://pcrtime.netlify.app/fail.html");
     },
   })
